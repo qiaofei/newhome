@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Home Design&Management - Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#065f46',
+                        'secondary': '#10b981',
+                        'accent': '#f59e0b',
+                        'light-bg': '#f8fafc'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-light-bg text-gray-800 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="bg-primary text-white px-3 py-2 font-bold text-xl">
+                        New<span class="text-secondary">Home</span>
+                    </div>
+                </div>
+
+                <!-- Navigation Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="home.html" class="text-gray-600 hover:text-secondary transition-colors font-medium">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-secondary transition-colors font-medium">About Us</a>
+                    <a href="services.html" class="text-gray-600 hover:text-secondary transition-colors font-medium">Services</a>
+                    <a href="projects.html" class="text-gray-600 hover:text-secondary transition-colors font-medium">Projects</a>
+                    <a href="contact.html" class="text-primary hover:text-secondary transition-colors font-medium">Contact</a>
+                </div>
+                
+                <!-- Contact Button -->
+                <div class="hidden md:block">
+                    <button class="border border-primary text-primary px-4 py-2 hover:bg-primary hover:text-white transition-colors">
+                        Contact Us
+                    </button>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-primary">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-16 bg-white py-20">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="space-y-6">
+                <p class="text-secondary font-medium text-lg">Let's Connect</p>
+                <h1 class="text-4xl lg:text-5xl font-light text-primary">
+                    Let's start designing your dream yard!
+                </h1>
+                <div class="w-24 h-1 bg-accent mx-auto"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto text-lg">
+                    Hello there! In order to better assist you, could you please provide me with some additional 
+                    information? Specifically, I would need to know your location, your requirements, and your 
+                    budget. This will help me to create more tailored responses to your needs. Thank you!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20 bg-light-bg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                <!-- Contact Information -->
+                <div class="space-y-8">
+                    <!-- Address -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-primary text-white p-3 rounded-full">
+                                <i class="fas fa-map-marker-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-primary mb-2">Address</h3>
+                                <p class="text-gray-600">3636 S Nogales St, West Covina, CA 91792</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Phone -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-secondary text-white p-3 rounded-full">
+                                <i class="fas fa-phone text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-primary mb-2">Phone</h3>
+                                <p class="text-gray-600">Kevin Zhao 626-278-8652</p>
+                                <p class="text-gray-600">Ferris Qin： 909-999-1856</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Email -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-accent text-white p-3 rounded-full">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-primary mb-2">Email</h3>
+                                <p class="text-gray-600">contact@newhomedesignmanagement.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-primary text-white p-3 rounded-full">
+                                <i class="fas fa-share-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-primary mb-2">Social Media</h3>
+                                <div class="flex space-x-4">
+                                    <a href="#" class="text-primary hover:text-secondary transition-colors">
+                                        <i class="fab fa-instagram text-2xl"></i>
+                                    </a>
+                                    <a href="#" class="text-primary hover:text-secondary transition-colors">
+                                        <i class="fab fa-linkedin text-2xl"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-gray-700 font-medium mb-2">First Name</label>
+                                <input type="text" 
+                                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition-colors"
+                                       placeholder="Enter your first name">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 font-medium mb-2">Last Name</label>
+                                <input type="text" 
+                                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition-colors"
+                                       placeholder="Enter your last name">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Email *</label>
+                            <input type="email" 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition-colors"
+                                   placeholder="Enter your email address" required>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Phone</label>
+                            <input type="tel" 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition-colors"
+                                   placeholder="Enter your phone number">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Project Type</label>
+                            <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition-colors">
+                                <option>Select project type</option>
+                                <option>Residential Landscape Design</option>
+                                <option>Commercial Landscape Design</option>
+                                <option>Garden Renovation</option>
+                                <option>Landscape Consultation</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Message</label>
+                            <textarea rows="5" 
+                                      class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition-colors resize-none"
+                                      placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        
+                        <button type="submit" 
+                                class="w-full bg-primary hover:bg-green-800 text-white py-3 px-6 rounded-lg font-medium transition-colors">
+                            <i class="fas fa-paper-plane mr-2"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Info -->
+    <footer class="bg-white py-8 border-t">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Logo -->
+                <div class="space-y-4">
+                    <div class="bg-primary text-white px-3 py-2 font-bold text-xl inline-block">
+                        New<span class="text-secondary">Home</span>
+                    </div>
+                    <p class="text-gray-600">New Home Design&Management</p>
+                </div>
+                
+                <!-- Service Areas -->
+                <div class="space-y-4">
+                    <h3 class="font-bold text-primary">Service Areas</h3>
+                    <div class="space-y-2 text-gray-600">
+                        <p>West Covina, CA</p>
+                        <p>Los Angeles County, CA</p>
+                        <p>San Gabriel Valley, CA</p>
+                        <p>Orange County, CA</p>
+                    </div>
+                </div>
+
+                <!-- Hours -->
+                <div class="space-y-4">
+                    <h3 class="font-bold text-primary">Hours of Operation</h3>
+                    <div class="space-y-2 text-gray-600">
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        <p>Weekends: By Appointment</p>
+                    </div>
+                </div>
+
+                <!-- Contact -->
+                <div class="space-y-4">
+                    <h3 class="font-bold text-primary">Contact Info</h3>
+                    <div class="space-y-2 text-gray-600">
+                        <p><i class="fas fa-envelope mr-2"></i>contact@newhomedesignmanagement.com</p>
+                        <p><i class="fas fa-phone mr-2"></i>Kevin Zhao 626-278-8652</p>
+                        <p><i class="fas fa-phone mr-2"></i>Ferris Qin： 909-999-1856</p>
+                        <p><i class="fas fa-map-marker-alt mr-2"></i>3636 S Nogales St, West Covina, CA 91792</p>
+                        <div class="flex space-x-3 pt-2">
+                            <a href="#" class="text-primary hover:text-secondary"><i class="fab fa-instagram text-xl"></i></a>
+                            <a href="#" class="text-primary hover:text-secondary"><i class="fab fa-linkedin text-xl"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/animations.js"></script>
+</body>
+</html>

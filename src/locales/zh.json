@@ -1,0 +1,209 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务项目",
+    "projects": "项目案例",
+    "contact": "联系我们",
+    "contactUs": "联系我们"
+  },
+  "hero": {
+    "welcome": "欢迎来到新家",
+    "journey": "旅程",
+    "ourJourney": "我们的",
+    "tagline": "设计创造价值，品质定义生活",
+    "description": "新家设计管理是一家专业从事高端建筑和室内空间设计的公司。我们创造融合美学与功能性的住宅和商业空间。我们的团队将国际趋势与本土文化元素相结合，为住宅、别墅、办公室和商业地产提供量身定制的解决方案。",
+    "discoverMore": "了解更多",
+    "getQuote": "获取报价",
+    "stats": {
+      "projects": "项目",
+      "satisfaction": "% 满意度",
+      "experience": "年经验"
+    },
+    "awardWinning": "获奖设计",
+    "awardDescription": "在景观建筑方面获得卓越认可",
+    "awardTitle": "获奖作品",
+    "designExcellence": "设计卓越"
+  },
+  "services": {
+    "title": "我们提供的服务",
+    "subtitle": "从概念到完成，我们提供全面的景观设计服务，将您的户外空间转变为令人惊叹的环境。",
+    "sectionTitle": "我们的服务",
+    "heroTitle": "新家设计",
+    "heroSubtitle": "令人惊叹的景观",
+    "discoverMore": "了解更多",
+    "ourServices": "我们的服务",
+    "processTitle": "我们的设计流程",
+    "residential": {
+      "title": "住宅建设",
+      "description": "ADU、全屋改造、定制高端橱柜和智能家居系统集成。"
+    },
+    "commercial": {
+      "title": "商业建设",
+      "description": "餐厅设施，包括厨房设备和商业地产的前厅设置。"
+    },
+    "design": {
+      "title": "空间设计",
+      "description": "室内设计、景观设计和建筑蓝图，提供全面的空间解决方案。"
+    },
+    "process": {
+      "consultation": {
+        "title": "咨询",
+        "description": "初步会议，了解您的愿景、需求和预算要求。"
+      },
+      "design": {
+        "title": "设计",
+        "description": "创建详细的计划和您未来景观的3D可视化。"
+      },
+      "planning": {
+        "title": "规划",
+        "description": "协调材料、许可证和时间表，确保无缝执行。"
+      },
+      "execution": {
+        "title": "执行",
+        "description": "专业安装，注重细节和质量工艺。"
+      }
+    },
+    "readyTransform": "准备好改造您的空间了吗？",
+    "readyTransformDesc": "今天就联系我们获取免费咨询，让我们将您的愿景变为现实。"
+  },
+  "cta": {
+    "title": "准备好改造您的空间了吗？",
+    "description": "让我们一起合作，创造您梦想中的户外空间。今天就联系我们获取免费咨询。",
+    "scheduleConsultation": "预约咨询",
+    "callNow": "立即致电"
+  },
+  "about": {
+    "title": "关于我们",
+    "subtitle": "发现我们创造每个空间背后的热情和专业知识。我们将住宅和商业空间转变为非凡的体验。",
+    "companyFounded": "公司成立",
+    "companyFoundedDesc": "新家设计工作室的成立愿景是创造可持续且美丽的景观。",
+    "projectsCompleted": "已完成项目",
+    "clientSatisfaction": "% 客户满意度",
+    "viewProjects": "查看我们的项目",
+    "readyToWork": "准备与我们合作吗？",
+    "readyToWorkDesc": "让我们讨论您的景观设计项目，将您的愿景变为现实。",
+    "scheduleConsultation": "预约咨询",
+    "callNow": "立即致电",
+    "team": {
+      "title": "认识我们的团队",
+      "subtitle": "我们充满热情的设计师和项目经理团队",
+      "kevin": {
+        "name": "Kevin Zhao",
+        "title": "首席设计师",
+        "description": "专业从事建筑设计和空间规划，在住宅和商业项目方面具有专业知识。"
+      },
+      "ferris": {
+        "name": "Ferris Qin",
+        "title": "项目经理",
+        "description": "项目协调和客户关系专家，专注于提供卓越的成果。"
+      }
+    }
+  },
+  "contact": {
+    "title": "让我们开始设计您梦想中的庭院吧！",
+    "subtitle": "让我们联系",
+    "description": "您好！为了更好地为您提供帮助，您能否提供一些额外信息？具体来说，我需要了解您的位置、需求和预算。这将帮助我为您的需求创建更有针对性的回应。谢谢！",
+    "address": "地址",
+    "phone": "电话",
+    "email": "邮箱",
+    "contactMethods": "联系方式",
+    "businessHours": "营业时间",
+    "weekdays": "周一至周五: 9:00 AM - 6:00 PM",
+    "weekends": "周末: 预约制",
+    "serviceAreas": "服务区域",
+    "getInTouch": "联系我们",
+    "sendMessage": "发送消息",
+    "fullName": "姓名",
+    "emailAddress": "邮箱地址",
+    "subject": "主题",
+    "message": "消息",
+    "yourName": "您的姓名",
+    "yourEmail": "您的邮箱",
+    "yourSubject": "您的主题",
+    "yourMessage": "您的消息",
+    "form": {
+      "title": "发送消息给我们",
+      "name": "姓名",
+      "phone": "电话",
+      "email": "邮箱",
+      "namePlaceholder": "请输入您的姓名",
+      "phonePlaceholder": "您的电话号码",
+      "emailPlaceholder": "您的邮箱地址",
+      "projectType": "项目类型",
+      "selectProjectType": "请选择项目类型",
+      "residential": "住宅设计",
+      "commercial": "商业空间",
+      "landscape": "景观设计",
+      "renovation": "翻新改造",
+      "consultation": "咨询服务",
+      "projectDescription": "项目描述",
+      "projectDescriptionPlaceholder": "请详细描述您的项目需求...",
+      "submit": "发送消息",
+      "sending": "发送中..."
+    }
+  },
+  "projects": {
+    "title": "我们的项目",
+    "subtitle": "探索我们令人惊叹的景观设计作品集",
+    "categories": {
+      "all": "所有项目",
+      "residential": "住宅项目",
+      "commercial": "商业项目",
+      "garden": "花园设计",
+      "hardscape": "硬景观"
+    },
+    "loadMore": "加载更多项目",
+    "viewProject": "查看项目",
+    "projectDetails": "项目详情",
+    "items": {
+      "modernGarden": {
+        "title": "现代花园绿洲",
+        "description": "具有可持续特色的现代景观设计",
+        "category": "住宅项目"
+      },
+      "corporateHQ": {
+        "title": "企业总部",
+        "description": "商业综合体的专业景观设计",
+        "category": "商业项目"
+      },
+      "zenGarden": {
+        "title": "禅意花园静修",
+        "description": "带有水景的宁静花园空间",
+        "category": "花园设计"
+      },
+      "stonePatio": {
+        "title": "石材露台天堂",
+        "description": "采用天然石材的优雅硬景观设计",
+        "category": "硬景观"
+      },
+      "luxuryVilla": {
+        "title": "豪华别墅景观",
+        "description": "高端住宅景观改造",
+        "category": "住宅项目"
+      },
+      "shoppingCenter": {
+        "title": "购物中心景观",
+        "description": "零售空间的商业景观设计",
+        "category": "商业项目"
+      }
+    }
+  },
+  "footer": {
+    "description": "新家设计工作室创造卓越的景观设计，提升您的生活方式和房产价值。",
+    "quickLinks": "快速链接",
+    "serviceAreas": "服务区域",
+    "contactInfo": "联系信息",
+    "locations": {
+      "westCovina": "西科维纳，加州",
+      "losAngeles": "洛杉矶县，加州",
+      "sanGabriel": "圣盖博谷，加州",
+      "orange": "橙县，加州"
+    },
+    "address": "3636 S Nogales St\n西科维纳，加州 91792",
+    "hours": "周一至周五：上午9:00 - 下午6:00\n周末：预约制",
+    "copyright": "© 2024 新家设计工作室。保留所有权利。",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款"
+  }
+}

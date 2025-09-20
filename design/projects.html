@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Home Design&Management - Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#065f46',
+                        'secondary': '#10b981',
+                        'accent': '#f59e0b',
+                        'light-bg': '#f8fafc'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-light-bg text-gray-800 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="bg-primary text-white px-3 py-2 font-bold text-xl">
+                        New<span class="text-secondary">Home</span>
+                    </div>
+                </div>
+
+                <!-- Navigation Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="home.html" class="text-gray-600 hover:text-secondary transition-colors font-medium">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-secondary transition-colors font-medium">About Us</a>
+                    <a href="services.html" class="text-gray-600 hover:text-secondary transition-colors font-medium">Services</a>
+                    <a href="projects.html" class="text-primary hover:text-secondary transition-colors font-medium">Projects</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-secondary transition-colors font-medium">Contact</a>
+                </div>
+                
+                <!-- Contact Button -->
+                <div class="hidden md:block">
+                    <button class="border border-primary text-primary px-4 py-2 hover:bg-primary hover:text-white transition-colors">
+                        Contact Us
+                    </button>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-primary">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-16 bg-gradient-to-br from-secondary to-primary text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h1 class="text-5xl lg:text-6xl font-light mb-6 tracking-wider">
+                OUR <span class="text-accent font-normal">PROJECTS</span>
+            </h1>
+            <div class="w-24 h-1 bg-accent mx-auto mb-8"></div>
+            <p class="text-xl text-gray-200 max-w-3xl mx-auto">
+                Explore our portfolio of stunning landscape transformations
+            </p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="py-8 bg-white border-b">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-wrap justify-center gap-4">
+                <button class="filter-btn active bg-primary text-white px-6 py-2 rounded-full font-medium transition-colors" data-filter="all">
+                    All Projects
+                </button>
+                <button class="filter-btn bg-gray-200 text-gray-700 hover:bg-secondary hover:text-white px-6 py-2 rounded-full font-medium transition-colors" data-filter="residential">
+                    Residential
+                </button>
+                <button class="filter-btn bg-gray-200 text-gray-700 hover:bg-secondary hover:text-white px-6 py-2 rounded-full font-medium transition-colors" data-filter="commercial">
+                    Commercial
+                </button>
+                <button class="filter-btn bg-gray-200 text-gray-700 hover:bg-secondary hover:text-white px-6 py-2 rounded-full font-medium transition-colors" data-filter="garden">
+                    Garden Design
+                </button>
+                <button class="filter-btn bg-gray-200 text-gray-700 hover:bg-secondary hover:text-white px-6 py-2 rounded-full font-medium transition-colors" data-filter="hardscape">
+                    Hardscape
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-item residential" data-category="residential">
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div class="relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Modern Backyard Design" 
+                                 class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <i class="fas fa-eye text-2xl"></i>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="bg-secondary text-white px-3 py-1 rounded-full text-sm font-medium">Residential</span>
+                                <span class="text-gray-500 text-sm">2024</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-primary mb-2">Modern Backyard Oasis</h3>
+                            <p class="text-gray-600 mb-4">Complete backyard transformation with contemporary design elements and sustainable landscaping.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-accent font-medium">Los Angeles, CA</span>
+                                <button class="text-primary hover:text-secondary transition-colors">
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-item commercial" data-category="commercial">
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div class="relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Corporate Campus Landscaping" 
+                                 class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <i class="fas fa-eye text-2xl"></i>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium">Commercial</span>
+                                <span class="text-gray-500 text-sm">2024</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-primary mb-2">Corporate Campus Design</h3>
+                            <p class="text-gray-600 mb-4">Large-scale commercial landscaping project featuring sustainable design and employee wellness areas.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-accent font-medium">San Diego, CA</span>
+                                <button class="text-primary hover:text-secondary transition-colors">
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-item garden" data-category="garden">
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div class="relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Zen Garden Design" 
+                                 class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <i class="fas fa-eye text-2xl"></i>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="bg-primary text-white px-3 py-1 rounded-full text-sm font-medium">Garden Design</span>
+                                <span class="text-gray-500 text-sm">2024</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-primary mb-2">Zen Garden Retreat</h3>
+                            <p class="text-gray-600 mb-4">Peaceful garden design incorporating Japanese aesthetics with native California plants.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-accent font-medium">Irvine, CA</span>
+                                <button class="text-primary hover:text-secondary transition-colors">
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-item hardscape" data-category="hardscape">
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div class="relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Stone Patio Design" 
+                                 class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <i class="fas fa-eye text-2xl"></i>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="bg-gray-600 text-white px-3 py-1 rounded-full text-sm font-medium">Hardscape</span>
+                                <span class="text-gray-500 text-sm">2024</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-primary mb-2">Natural Stone Patio</h3>
+                            <p class="text-gray-600 mb-4">Custom stone patio installation with integrated fire feature and outdoor kitchen area.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-accent font-medium">Beverly Hills, CA</span>
+                                <button class="text-primary hover:text-secondary transition-colors">
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-item residential" data-category="residential">
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div class="relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1574263867128-a3d5c1b1deae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Pool Landscape Design" 
+                                 class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <i class="fas fa-eye text-2xl"></i>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="bg-secondary text-white px-3 py-1 rounded-full text-sm font-medium">Residential</span>
+                                <span class="text-gray-500 text-sm">2024</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-primary mb-2">Luxury Pool Landscape</h3>
+                            <p class="text-gray-600 mb-4">Sophisticated pool area design with tropical plantings and entertainment spaces.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-accent font-medium">Malibu, CA</span>
+                                <button class="text-primary hover:text-secondary transition-colors">
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-item garden" data-category="garden">
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div class="relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1592595896551-12b371d546d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Vegetable Garden Design" 
+                                 class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <i class="fas fa-eye text-2xl"></i>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="bg-primary text-white px-3 py-1 rounded-full text-sm font-medium">Garden Design</span>
+                                <span class="text-gray-500 text-sm">2024</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-primary mb-2">Sustainable Vegetable Garden</h3>
+                            <p class="text-gray-600 mb-4">Organic vegetable garden with raised beds, composting system, and rainwater collection.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-accent font-medium">Santa Monica, CA</span>
+                                <button class="text-primary hover:text-secondary transition-colors">
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="space-y-8">
+                <h2 class="text-4xl font-light">Ready to Start Your Project?</h2>
+                <p class="text-xl text-gray-200 max-w-2xl mx-auto">
+                    Let's discuss your vision and create something beautiful together.
+                </p>
+                <button class="bg-secondary hover:bg-green-600 text-white px-8 py-3 font-medium transition-colors">
+                    <i class="fas fa-comments mr-2"></i>
+                    Start a Conversation
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Info -->
+    <footer class="bg-white py-8 border-t">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Logo -->
+                <div class="space-y-4">
+                    <div class="bg-primary text-white px-3 py-2 font-bold text-xl inline-block">
+                        New<span class="text-secondary">Home</span>
+                    </div>
+                    <p class="text-gray-600">New Home Design&Management</p>
+                </div>
+                
+                <!-- Service Areas -->
+                <div class="space-y-4">
+                    <h3 class="font-bold text-primary">Service Areas</h3>
+                    <div class="space-y-2 text-gray-600">
+                        <p>Los Angeles, CA, USA</p>
+                        <p>San Diego, CA, USA</p>
+                        <p>Irvine, CA, USA</p>
+                    </div>
+                </div>
+                
+                <!-- Hours -->
+                <div class="space-y-4">
+                    <h3 class="font-bold text-primary">Hours of Operation</h3>
+                    <div class="space-y-2 text-gray-600">
+                        <p>Monday: 9 am - 6 pm</p>
+                        <p>Tuesday: 9 am - 6 pm</p>
+                        <p>Wednesday: 9 am - 6 pm</p>
+                        <p>Thursday: 9 am - 6 pm</p>
+                        <p>Friday: 9 am - 6 pm</p>
+                    </div>
+                </div>
+                
+                <!-- Contact -->
+                <div class="space-y-4">
+                    <h3 class="font-bold text-primary">Contact Info</h3>
+                    <div class="space-y-2 text-gray-600">
+                        <p><i class="fas fa-envelope mr-2"></i>contact@newhomedesignmanagement.com</p>
+                        <p><i class="fas fa-phone mr-2"></i>626-387-9859</p>
+                        <div class="flex space-x-3 pt-2">
+                            <a href="#" class="text-primary hover:text-secondary"><i class="fab fa-instagram text-xl"></i></a>
+                            <a href="#" class="text-primary hover:text-secondary"><i class="fab fa-linkedin text-xl"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Filter functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectItems = document.querySelectorAll('.project-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => {
+                    b.classList.remove('active', 'bg-primary', 'text-white');
+                    b.classList.add('bg-gray-200', 'text-gray-700');
+                });
+                
+                // Add active class to clicked button
+                btn.classList.add('active', 'bg-primary', 'text-white');
+                btn.classList.remove('bg-gray-200', 'text-gray-700');
+                
+                const filter = btn.getAttribute('data-filter');
+                
+                projectItems.forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.style.display = 'block';
+                        item.style.animation = 'fadeIn 0.5s ease-in';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+
+    <!-- Scripts -->
+    <script src="assets/animations.js"></script>
+</body>
+</html>

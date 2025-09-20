@@ -1,0 +1,209 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "contactUs": "Contact Us"
+  },
+  "hero": {
+    "welcome": "Welcome to NewHome",
+    "journey": "JOURNEY",
+    "ourJourney": "OUR",
+    "tagline": "Design Creates Value, Quality Defines Life",
+    "description": "New Home Design & Management is a professional firm specializing in high-end architectural and interior space design. We create residential and commercial spaces that blend aesthetics with functionality. Our team integrates international trends with local cultural elements to deliver tailored solutions for homes, villas, offices, and commercial properties.",
+    "discoverMore": "Discover More",
+    "getQuote": "Get Quote",
+    "stats": {
+      "projects": "Projects",
+      "satisfaction": "% Satisfaction",
+      "experience": "Years Experience"
+    },
+    "awardWinning": "Award-Winning Design",
+    "awardDescription": "Recognized for excellence in landscape architecture",
+    "awardTitle": "Award Winning",
+    "designExcellence": "Design Excellence"
+  },
+  "services": {
+    "title": "What We Offer",
+    "subtitle": "From concept to completion, we provide comprehensive landscape design services that transform your outdoor spaces into stunning environments.",
+    "sectionTitle": "Our Services",
+    "heroTitle": "NewHome Design",
+    "heroSubtitle": "Stunning Landscapes",
+    "discoverMore": "Discover More",
+    "ourServices": "OUR SERVICES",
+    "processTitle": "Our Design Process",
+    "residential": {
+      "title": "Residential Construction",
+      "description": "ADU, full home remodeling, custom high-end cabinetry, and smart home system integration."
+    },
+    "commercial": {
+      "title": "Commercial Construction",
+      "description": "Restaurant facilities including kitchen equipment and front hall setup for commercial properties."
+    },
+    "design": {
+      "title": "Space Design",
+      "description": "Interior design, landscape design, and architectural blueprints for comprehensive space solutions."
+    },
+    "process": {
+      "consultation": {
+        "title": "Consultation",
+        "description": "Initial meeting to understand your vision, needs, and budget requirements."
+      },
+      "design": {
+        "title": "Design",
+        "description": "Creating detailed plans and 3D visualizations of your future landscape."
+      },
+      "planning": {
+        "title": "Planning",
+        "description": "Coordinating materials, permits, and timeline for seamless execution."
+      },
+      "execution": {
+        "title": "Execution",
+        "description": "Professional installation with attention to detail and quality craftsmanship."
+      }
+    },
+    "readyTransform": "Ready to Transform Your Space?",
+    "readyTransformDesc": "Contact us today for a free consultation and let's bring your vision to life."
+  },
+  "cta": {
+    "title": "Ready to Transform Your Space?",
+    "description": "Let's work together to create the outdoor space of your dreams. Contact us today for a free consultation.",
+    "scheduleConsultation": "Schedule Consultation",
+    "callNow": "Call Now"
+  },
+  "about": {
+    "title": "ABOUT US",
+    "subtitle": "Discover the passion and expertise behind every space we create. We transform residential and commercial spaces into extraordinary experiences.",
+    "companyFounded": "Company Founded",
+    "companyFoundedDesc": "New Home Design&Management was established with a vision to create sustainable and beautiful landscapes.",
+    "projectsCompleted": "Projects Completed",
+    "clientSatisfaction": "% Client Satisfaction",
+    "viewProjects": "View Our Projects",
+    "readyToWork": "Ready to Work With Us?",
+    "readyToWorkDesc": "Let's discuss your landscape design project and bring your vision to life.",
+    "scheduleConsultation": "Schedule Consultation",
+    "callNow": "Call Now",
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "Our passionate team of designers and project managers",
+      "kevin": {
+        "name": "Kevin Zhao",
+        "title": "Principal Designer",
+        "description": "Specializes in architectural design and space planning with expertise in residential and commercial projects."
+      },
+      "ferris": {
+        "name": "Ferris Qin",
+        "title": "Project Manager",
+        "description": "Expert in project coordination and client relations with a focus on delivering exceptional results."
+      }
+    }
+  },
+  "contact": {
+    "title": "Let's start designing your dream yard!",
+    "subtitle": "Let's Connect",
+    "description": "Hello there! In order to better assist you, could you please provide me with some additional information? Specifically, I would need to know your location, your requirements, and your budget. This will help me to create more tailored responses to your needs. Thank you!",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "contactMethods": "Contact Information",
+    "businessHours": "Business Hours",
+    "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+    "weekends": "Weekends: By Appointment",
+    "serviceAreas": "Service Areas",
+    "getInTouch": "Get In Touch",
+    "sendMessage": "Send Message",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "yourName": "Your Name",
+    "yourEmail": "Your Email",
+    "yourSubject": "Your Subject",
+    "yourMessage": "Your Message",
+    "form": {
+      "title": "Send us a Message",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "namePlaceholder": "Your full name",
+      "phonePlaceholder": "Your phone number",
+      "emailPlaceholder": "Your email address",
+      "projectType": "Project Type",
+      "selectProjectType": "Select project type",
+      "residential": "Residential Design",
+      "commercial": "Commercial Space",
+      "landscape": "Landscape Design",
+      "renovation": "Renovation",
+      "consultation": "Consultation Service",
+      "projectDescription": "Project Description",
+      "projectDescriptionPlaceholder": "Please describe your project requirements in detail...",
+      "submit": "Send Message",
+      "sending": "Sending..."
+    }
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Explore our portfolio of stunning landscape designs",
+    "categories": {
+      "all": "All Projects",
+      "residential": "Residential",
+      "commercial": "Commercial",
+      "garden": "Garden Design",
+      "hardscape": "Hardscape"
+    },
+    "loadMore": "Load More Projects",
+    "viewProject": "View Project",
+    "projectDetails": "Project Details",
+    "items": {
+      "modernGarden": {
+        "title": "Modern Garden Oasis",
+        "description": "Contemporary landscape design with sustainable features",
+        "category": "Residential"
+      },
+      "corporateHQ": {
+        "title": "Corporate Headquarters",
+        "description": "Professional landscape design for business complex",
+        "category": "Commercial"
+      },
+      "zenGarden": {
+        "title": "Zen Garden Retreat",
+        "description": "Peaceful garden space with water features",
+        "category": "Garden Design"
+      },
+      "stonePatio": {
+        "title": "Stone Patio Paradise",
+        "description": "Elegant hardscape design with natural stone",
+        "category": "Hardscape"
+      },
+      "luxuryVilla": {
+        "title": "Luxury Villa Landscape",
+        "description": "High-end residential landscape transformation",
+        "category": "Residential"
+      },
+      "shoppingCenter": {
+        "title": "Shopping Center Landscape",
+        "description": "Commercial landscape design for retail space",
+        "category": "Commercial"
+      }
+    }
+  },
+  "footer": {
+    "description": "New Home Design&Management creates exceptional landscape designs that enhance your lifestyle and property value.",
+    "quickLinks": "Quick Links",
+    "serviceAreas": "Service Areas",
+    "contactInfo": "Contact Info",
+    "locations": {
+      "westCovina": "West Covina, CA",
+      "losAngeles": "Los Angeles County, CA",
+      "sanGabriel": "San Gabriel Valley, CA",
+      "orange": "Orange County, CA"
+    },
+    "address": "3636 S Nogales St\nWest Covina, CA 91792",
+    "hours": "Mon - Fri: 9:00 AM - 6:00 PM\nWeekends: By Appointment",
+    "copyright": "© 2024 New Home Design&Management. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  }
+}

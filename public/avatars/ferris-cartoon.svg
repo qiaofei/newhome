@@ -1,0 +1,35 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="#fef3c7"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="90" r="45" fill="#fbbf24"/>
+  
+  <!-- Hair -->
+  <path d="M55 75 Q70 45 100 50 Q130 45 145 75 Q140 55 100 50 Q60 55 55 75" fill="#7c2d12"/>
+  
+  <!-- Eyes -->
+  <circle cx="85" cy="80" r="4" fill="#1f2937"/>
+  <circle cx="115" cy="80" r="4" fill="#1f2937"/>
+  <circle cx="86" cy="78" r="1" fill="#ffffff"/>
+  <circle cx="116" cy="78" r="1" fill="#ffffff"/>
+  
+  <!-- Nose -->
+  <ellipse cx="100" cy="90" rx="2" ry="3" fill="#f59e0b"/>
+  
+  <!-- Smile -->
+  <path d="M88 100 Q100 112 112 100" stroke="#1f2937" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Earrings -->
+  <circle cx="70" cy="85" r="3" fill="#ef4444"/>
+  <circle cx="130" cy="85" r="3" fill="#ef4444"/>
+  
+  <!-- Body -->
+  <rect x="70" y="130" width="60" height="70" rx="10" fill="#7c3aed"/>
+  
+  <!-- Collar -->
+  <rect x="75" y="130" width="50" height="15" fill="#a855f7"/>
+  
+  <!-- Necklace -->
+  <circle cx="100" cy="125" r="4" fill="#fbbf24"/>
+</svg>
