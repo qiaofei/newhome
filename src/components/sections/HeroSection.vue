@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-16 md:pt-20 md:min-h-screen bg-linear-to-br from-primary via-primary-dark to-gray-900 text-white relative overflow-hidden">
+  <section class="pt-16 md:pt-20 md:min-h-screen bg-linear-to-br from-primary to-primary-dark text-white relative overflow-hidden">
     <!-- Animated Background Elements (hidden on mobile) -->
     <div class="absolute inset-0 opacity-20 hidden md:block">
       <div class="absolute top-20 left-10 w-32 h-32 border border-white rounded-full animate-float"></div>
@@ -9,7 +9,7 @@
     </div>
 
     <!-- Gradient Overlay -->
-    <div class="absolute inset-0 bg-primary/60 md:bg-gradient-to-r md:from-primary/70 md:to-primary-dark/50"></div>
+    <div class="absolute inset-0 bg-primary md:bg-gradient-to-r md:from-primary md:to-primary-dark/20"></div>
 
     <div class="relative z-10 max-w-7xl mx-auto px-4 py-10 md:py-20">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center md:min-h-[80vh]">

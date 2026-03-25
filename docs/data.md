@@ -2,8 +2,10 @@
 
 ## 账号密码
 
-``` md
+```md
 contact@newhomedesignmanagement.com,newhomedesign2024@gmail.com
 198702QZ!
 54.176.242.0
 ```
+
+netlify，yuren的gmail账号
