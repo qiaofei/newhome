@@ -62,11 +62,11 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div 
-      class="mobile-menu md:hidden bg-white border-t border-gray-200 transform transition-all duration-300"
-      :class="{ 
-        'active translate-y-0 opacity-100': isMobileMenuOpen,
-        '-translate-y-full opacity-0': !isMobileMenuOpen 
+    <div
+      class="mobile-menu md:hidden bg-white border-t border-gray-200 transition-all duration-300"
+      :class="{
+        'max-h-96 opacity-100': isMobileMenuOpen,
+        'max-h-0 opacity-0 overflow-hidden': !isMobileMenuOpen
       }"
     >
       <div class="px-4 py-6 space-y-4">

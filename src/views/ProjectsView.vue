@@ -109,7 +109,7 @@ const projects = ref([
     category: 'residential',
     categoryId: 'residential',
     year: '2024',
-    image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    image: '/images/project-garden.jpg'
   },
   {
     id: 2,
@@ -118,7 +118,7 @@ const projects = ref([
     category: 'commercial',
     categoryId: 'commercial',
     year: '2024',
-    image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    image: '/images/project-backyard.jpg'
   },
   {
     id: 3,
@@ -127,7 +127,7 @@ const projects = ref([
     category: 'garden',
     categoryId: 'garden',
     year: '2023',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    image: '/images/hero-garden.jpg'
   },
   {
     id: 4,
@@ -136,7 +136,7 @@ const projects = ref([
     category: 'hardscape',
     categoryId: 'hardscape',
     year: '2023',
-    image: 'https://images.unsplash.com/photo-1592595896551-12b371d546d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    image: '/images/project-pool.jpg'
   },
   {
     id: 5,
@@ -145,7 +145,7 @@ const projects = ref([
     category: 'residential',
     categoryId: 'residential',
     year: '2023',
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    image: '/images/project-modern-house.jpg'
   },
   {
     id: 6,
@@ -154,7 +154,7 @@ const projects = ref([
     category: 'commercial',
     categoryId: 'commercial',
     year: '2024',
-    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    image: '/images/project-commercial.jpg'
   }
 ])
 

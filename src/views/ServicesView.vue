@@ -3,7 +3,7 @@
   <section class="pt-16 bg-gradient-to-br from-primary to-gray-900 text-white relative overflow-hidden min-h-screen">
     <!-- Background Image -->
     <div class="absolute inset-0">
-      <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" 
+      <img src="/images/services-hero.jpg" 
            alt="Landscape Design" 
            class="w-full h-full object-cover opacity-30">
     </div>

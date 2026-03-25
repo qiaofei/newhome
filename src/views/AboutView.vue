@@ -81,13 +81,13 @@
           <div class="grid grid-cols-2 gap-4">
             <div class="space-y-4">
               <div class="card-hover-lift overflow-hidden rounded-2xl">
-                <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                <img src="/images/project-garden.jpg"
                      alt="Modern Garden Design"
                      class="w-full h-48 object-cover transition-transform duration-700 hover:scale-110">
               </div>
 
               <div class="card-hover-lift overflow-hidden rounded-2xl">
-                <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                <img src="/images/project-backyard.jpg"
                      alt="Landscape Architecture"
                      class="w-full h-32 object-cover transition-transform duration-700 hover:scale-110">
               </div>
@@ -95,13 +95,13 @@
 
             <div class="space-y-4 pt-8">
               <div class="card-hover-lift overflow-hidden rounded-2xl">
-                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                <img src="/images/about-villa.jpg"
                      alt="Outdoor Living Space"
                      class="w-full h-32 object-cover transition-transform duration-700 hover:scale-110">
               </div>
 
               <div class="card-hover-lift overflow-hidden rounded-2xl">
-                <img src="https://images.unsplash.com/photo-1592595896551-12b371d546d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                <img src="/images/project-pool.jpg"
                      alt="Garden Pathway"
                      class="w-full h-48 object-cover transition-transform duration-700 hover:scale-110">
               </div>

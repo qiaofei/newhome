@@ -1,7 +1,7 @@
 <template>
-  <section class="pt-20 min-h-screen bg-gradient-to-br from-primary via-primary-dark to-gray-900 text-white relative overflow-hidden">
-    <!-- Animated Background Elements -->
-    <div class="absolute inset-0 opacity-20">
+  <section class="pt-16 md:pt-20 md:min-h-screen bg-linear-to-br from-primary via-primary-dark to-gray-900 text-white relative overflow-hidden">
+    <!-- Animated Background Elements (hidden on mobile) -->
+    <div class="absolute inset-0 opacity-20 hidden md:block">
       <div class="absolute top-20 left-10 w-32 h-32 border border-white rounded-full animate-float"></div>
       <div class="absolute top-40 right-20 w-24 h-24 border border-white rounded-full animate-float delay-200"></div>
       <div class="absolute bottom-20 left-1/4 w-16 h-16 border border-white rounded-full animate-float delay-400"></div>
@@ -9,10 +9,10 @@
     </div>
 
     <!-- Gradient Overlay -->
-    <div class="absolute inset-0 bg-gradient-to-r from-primary/80 via-transparent to-primary-dark/60"></div>
+    <div class="absolute inset-0 bg-primary/60 md:bg-gradient-to-r md:from-primary/70 md:to-primary-dark/50"></div>
 
-    <div class="relative z-10 max-w-7xl mx-auto px-4 py-20">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center min-h-[80vh]">
+    <div class="relative z-10 max-w-7xl mx-auto px-4 py-10 md:py-20">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center md:min-h-[80vh]">
         <!-- Left Content -->
         <div class="space-y-8 scroll-reveal">
           <div class="space-y-6">
@@ -69,9 +69,9 @@
         <!-- Right Content - Enhanced Image -->
         <div class="relative animate-fade-in-right delay-300">
           <div class="relative overflow-hidden rounded-2xl shadow-2xl card-hover-lift">
-            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+            <img src="/images/hero-garden.jpg"
                  :alt="$t('hero.awardWinning')"
-                 class="w-full h-[500px] object-cover transition-transform duration-700 hover:scale-110">
+                 class="w-full h-[300px] md:h-[500px] object-cover transition-transform duration-700 hover:scale-110">
             <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
 
             <!-- Image Overlay Content -->
@@ -84,7 +84,7 @@
           </div>
 
           <!-- Floating Achievement Card -->
-          <div class="absolute -bottom-8 -left-8 bg-white text-gray-800 p-6 rounded-2xl shadow-2xl card-glow animate-slide-in-bottom delay-600">
+          <div class="absolute -bottom-8 -left-8 bg-white text-gray-800 p-4 md:p-6 rounded-2xl shadow-2xl card-glow animate-slide-in-bottom delay-600 hidden md:block">
             <div class="flex items-center space-x-4">
               <div class="bg-gradient-to-r from-secondary to-secondary-light text-white p-4 rounded-full">
                 <i class="fas fa-award text-xl"></i>
@@ -103,9 +103,9 @@
             </div>
           </div>
 
-          <!-- Decorative Elements -->
-          <div class="absolute -top-4 -right-4 w-24 h-24 bg-secondary/20 rounded-full animate-pulse"></div>
-          <div class="absolute top-1/2 -right-8 w-16 h-16 bg-accent/20 rounded-full animate-float delay-300"></div>
+          <!-- Decorative Elements (hidden on mobile) -->
+          <div class="absolute -top-4 -right-4 w-24 h-24 bg-secondary/20 rounded-full animate-pulse hidden md:block"></div>
+          <div class="absolute top-1/2 -right-8 w-16 h-16 bg-accent/20 rounded-full animate-float delay-300 hidden md:block"></div>
         </div>
       </div>
     </div>
